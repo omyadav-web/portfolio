@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="home" class="pages">
+        <video autoplay muted loop>
+            <source src="hero (1).mp4" type="video/mp4">
+            Your browser does not support this video.
+        </video>
+        <div id="home-text" class="text-container">
+            <h1>SHASHWAT</h1>
+            <p>DESIGNER & DEVELOPER</p>
+        </div>
+        <div id="scroll-button-home" class="scroll-btn" data-target="#about">
+            <img src="scroll.png" alt="scroll">
+        </div>
+    </section>
+    <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="overlay" id="overlay">
+        <a href="#home" onclick="toggleMenu()">Home</a>
+        <a href="#about" onclick="toggleMenu()">About</a>
+        <a href="#skills" onclick="toggleMenu()">Skills</a>
+        <a href="#project" onclick="toggleMenu()">Projects</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
+    </div>
+    <section id="about" class="pages">
+        <div class="about-contant">
+            <div class="about-left">
+                <h1>ABOUT ME</h1>
+                <p>Hello, I'm Shashwat, a Front End Web Developer based in Noida, India having a year of experience. I like to build scalable and interactive web apps focusing on writing clean, efficient and maintainable code. I take pride in transforming ideas into reality, always striving for excellence and creativity in everything I do. I am passionate about learning new technologies and frameworks. </p>
+                <p>TLDR: I love coding, exploring new tools, and turning ideas into reality!</p>
+                <div class="about-left-inner">
+                    <img id="sign" src="sign.png" alt="sign">
+                </div>
+            </div>
+            <div class="about-right">
+                <img src="about_img.jpg" alt="shashwat-image">
+            </div>
+        </div>
+        <div id="scroll-button-about" class="scroll-btn" data-target="#skills">
+            <img src="scroll.png" alt="scroll">
+        </div>
+    </section>
+    <section id="skills" class="pages">
+        <video autoplay muted loop>
+            <source src="hero (2).mp4" type="video/mp4">
+            Your browser does not support this video.
+        </video>
+        <div class="infinity-scroll">
+            <div class="scroll1">
+                <div class="item item1 Redux"><span>Redux</span></div>
+                <div class="item item2 RectJS"><span>ReactJS</span></div>
+                <div class="item item3 TailwindCSS"><span>Tailwind CSS</span></div>
+                <div class="item item4 Figma"><span>Figma</span></div>
+                <div class="item item5 MediaQuery"><span>Media Query</span></div>
+                <div class="item item6 HTML5"><span>HTML5</span></div>
+                <div class="item item7 JavaScript"><span>JavaScript</span></div>
+                <div class="item item8 NextJS"><span>Next JS</span></div>
+                <div class="item item9 TypeScript"><span>TypeScript</span></div>
+                <div class="item item10 CSS3"><span>CSS3</span></div>
+            </div>
+            <div class="scroll2">
+                <div class="items item1 TypeScript"><span>TypeScript</span></div>
+                <div class="items item2 RectJS"><span>ReactJS</span></div>
+                <div class="items item3 Figma"><span>Figma</span></div>
+                <div class="items item4 NextJS"><span>NextJS</span></div>
+                <div class="items item5 MediaQuery"><span>Media Query</span></div>
+                <div class="items item6 JavaScript"><span>JavaScript</span></div>
+                <div class="items item7 Redux"><span>Redux</span></div>
+                <div class="items item8 CSS3"><span>CSS3</span></div>
+                <div class="items item9 TailwindCSS"><span>Tailwind CSS</span></div>
+                <div class="items item10 HTML5"><span>HTML5</span></div>
+            </div>
+        </div>
+        <div id="scroll-button-skills" class="scroll-btn" data-target="#project">
+            <img src="scroll.png" alt="scroll">
+        </div>
+    </section>
+    <section id="project" class="pages">
+        <div id="project-cont"></div>
+        <div id="scroll-button-project" class="scroll-btn" data-target="#contact">
+            <img src="scroll.png" alt="scroll">
+        </div>
+    </section>
+    <section id="contact" class="pages">
+        <video autoplay muted loop>
+            <source src="hero (4).mp4" type="video/mp4">
+            Your browser does not support this video.
+        </video>
+        <div id="footer">
+            <h1>STAY IN TOUCH</h1>
+            <nav id="reach">
+                <a href="https://www.linkedin.com/in/shashwat-pratap-singh-ba6574254/">
+                    LINKEDIN
+                </a>
+                <a href="https://github.com/7SPS7">
+                    GIT HUB
+                </a>
+                <a href="https://x.com/Shashwa9963495">
+                    TWITTER
+                </a>
+            </nav>
+            <div class="footer-copyright">
+                +91-9717794707
+                <br>
+                shashwatpratap100@gmail.com
+                <br>
+                Designed and Developer by Shashwat pratap singh
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
