@@ -13,3 +13,11 @@ function toggleMenu() {
     overlay.classList.toggle('active');
 }
 hamburger.addEventListener('click', toggleMenu);
+
+// auto type effect.
+var type = new Typed(".auto-typed", {
+    strings: ["Developer","Designer"],
+    typeSpeed: 200,
+    backSpeed: 200,
+    loop: true
+});
